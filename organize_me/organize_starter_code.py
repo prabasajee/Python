@@ -29,5 +29,4 @@ def organizeDirectory():
             directoryPath.mkdir()
         filePath.rename(directoryPath.joinpath(filePath))
 
-# test out the organizeDirectory() function
-# uncomment this line and write your code
+organizeDirectory()
